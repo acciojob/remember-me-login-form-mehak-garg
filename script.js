@@ -24,6 +24,7 @@ btn.addEventListener("click",()=>{
 let credential={username:userName.value,password:password.value};
 localStorage.setItem("credentials",JSON.stringify(credential));
 alert(`Logged in as ${userName.value}`);
+existing.style.display = "block";			
 		}
 	}
 else{
