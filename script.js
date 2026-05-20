@@ -31,6 +31,7 @@ if(userName.value&&password.value)
 		{
 	localStorage.removeItem("credentials");
 alert(`Logged in as ${userName.value}`);
+			existing.style.display="none";
 		}
 
 }
